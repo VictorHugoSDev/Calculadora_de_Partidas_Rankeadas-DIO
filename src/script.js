@@ -1,5 +1,5 @@
-let victories = parseInt(prompt("Digite a quantidade de vitórias"));
-let defeats = parseInt(prompt("Digite a quantidade de derrotas"));
+let victories = promptForNumber("Digite a quantidade de vitórias");
+let defeats = promptForNumber("Digite a quantidade de derrotas");
 let rank;
 let cor;
 
@@ -8,6 +8,17 @@ determineLevel(difference);
 display(difference);
 
 console.log(`O Herói tem de saldo de ${difference} está no nível de ${rank}`);
+
+function promptForNumber(message){
+    let number;
+    do{
+        number = parseInt(prompt(message));
+        if(isNaN(number) || number <0){
+            alert("Por favor, digite um número válido (não negativo).");
+        }
+    }while(isNaN(number) || number < 0);
+    return number;
+}
 
 function calculateDifference(victories, defeats){
     return victories - defeats;
