@@ -1,5 +1,5 @@
 # Calculadora de Partidas Rankeadas
-Entendendo o Desafio
+## Entendendo o Desafio
  
 Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
  
@@ -8,7 +8,8 @@ Neste repositório, insira todos os links e arquivos necessários para seu proje
 Dica: Se o expert forneceu um repositório Github, você pode dar um "fork" no repositório dele para organizar suas alterações e evoluções mantendo uma referência direta ao código-fonte original.
  
 Instruções para entrega
- # 2️⃣ Calculadora de partidas Rankeadas
+## 2️⃣ Calculadora de partidas Rankeadas
+ 
 **O Que deve ser utilizado**
 
 - Variáveis
@@ -17,7 +18,7 @@ Instruções para entrega
 - Estruturas de decisões
 - Funções
 
-## Objetivo:
+### Objetivo:
 
 Crie uma função que recebe como parâmetro a quantidade de vitórias e derrotas de um jogador,
 depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve ser feito através do calculo (vitórias - derrotas)
@@ -30,7 +31,7 @@ depois disso retorne o resultado para uma variável, o saldo de Rankeadas deve s
 - Se vitórias for entre 91 e 100= Lendário
 - Se vitórias for maior ou igual a 101 = Imortal
 
-## Saída
+### Saída
 
 Ao final deve se exibir uma mensagem:
 "O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**"
